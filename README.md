@@ -116,3 +116,8 @@ kafka-topics.sh --create --topic storetransactions
 * Implement **schema registry** for contract enforcement
 * Add **monitoring & alerting**
 * Extend pipeline to **real-time streaming analytics**
+
+## ⏱ Scheduling Note
+
+The DAG timings and wait intervals in this project are intentionally kept shorter for local testing and demonstration purposes.  
+In a production environment, these values can be easily adjusted based on business requirements, data volume, and SLA constraints.
